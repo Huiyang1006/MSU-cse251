@@ -27,25 +27,33 @@ int main()
         printf("You have %.2f kilograms of fuel.\n", fuel);
 
         do{
-            printf("How much fuel would you like to burn: ");
-            scanf("%lf", &burn);
             valid = false;
-            if(burn < 0)
+
+            printf("How much fuel would you like to burn: ");
+            if (!scanf("%lf", &burn))
             {
-                printf("You can't burn negative fuel.\n");
-            }
-            else if(burn > 5)
-            {
-                printf("You can't burn more than 5 kilograms per second.\n");
-            }
-            else if(burn > fuel)
-            {
-                printf("You can't burn fuel you don't have.\n");
+                printf("Please enter a number of fuel to burn.\n");
+                getchar();
             }
             else
             {
-                printf("Burning %.1f kilograms of fuel.\n", burn);
-                valid = true;
+                if(burn < 0)
+                {
+                    printf("You can't burn negative fuel.\n");
+                }
+                else if(burn > 5)
+                {
+                    printf("You can't burn more than 5 kilograms per second.\n");
+                }
+                else if(burn > fuel)
+                {
+                    printf("You can't burn fuel you don't have.\n");
+                }
+                else
+                {
+                    printf("Burning %.1f kilograms of fuel.\n", burn);
+                    valid = true;
+                }
             }
         } while (!valid);
 
