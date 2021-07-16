@@ -55,9 +55,6 @@ int main ()
 
             str[len] = 0;
             num_word = strlen(str);
-            //longest_num = longest_num>num_word?longest_num:num_word;
-            //longest_flag = longest_num>num_word?longest_flag:count;
-            //longest_str = longest_num>num_word?longest_str:str;
             if (longest_num > num_word)
             {
                 longest_num = longest_num;
