@@ -10,7 +10,7 @@ double integral(double, double, int);
 
 /*
 ∗ CSE 251 Project 1
-∗ By: ¡your name here¿ ∗
+∗ By: Huiyang Zhao
 ∗ Complete the following table:
 *
 * a        b        n        estimate
