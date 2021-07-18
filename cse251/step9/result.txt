@@ -1,0 +1,78 @@
+>h.oidts< edulcni#
+>h.gnirts< edulcni#
+
+ */
+oahZ gnayiuH : emaN * 
+selif htiw tnemirepxe ot margorP * 
+/* 
+
+;)][rahc(esreveR diov
+
+)][vgra* rahc ,cgra tni(niam tni
+{
+
+;eliFni* ELIF   
+;eliFtuo* ELIF   
+
+;]021[enil rahc   
+
+)3 < cgra(fi   
+{   
+;)"n\stnemugra tneiciffusnI"(ftnirp     
+;1 nruter     
+}   
+
+ ;)]0[vgra ,"n\s%"(ftnirp//   
+
+;)]1[vgra ,"n\s% :elif morf ypoC"(ftnirp   
+;)]2[vgra ,"n\s% :elif ot ypoC"(ftnirp   
+
+;)"r" ,]1[vgra(nepof = eliFni   
+)LLUN == eliFni(fi   
+{   
+;)]1[vgra ,"n\s% elif nepo ot elbanU"(ftnirp      
+;1 nruter      
+}   
+
+;)"w" ,]2[vgra(nepof = eliFtuo   
+)LLUN == eliFtuo(fi   
+{   
+;)]2[vgra ,"n\s% elif nepo ot elbanU"(ftnirp     
+;1 nruter     
+}   
+
+/* elif eht fo dne eht ta ton era ew elihW */   
+))eliFni(foef!(elihw   
+{   
+/* elif eht morf txet fo enil a daeR */      
+;)eliFni ,)enil(foezis ,enil(stegf      
+
+/* enil eht fo dne eht ta enilwen eht evomeR */      
+)'n\' == ]1 - )enil(nelrts[enil && 0 > )enil(nelrts(fi      
+;'0\' = ]1 - )enil(nelrts[enil         
+
+;)enil ,"n\s%"(ftnirp//      
+;)enil(esreveR      
+;)enil ,"n\s%" ,eliFtuo(ftnirpf      
+}   
+
+;)eliFni(esolcf   
+;)eliFtuo(esolcf   
+}
+
+)][rts rahc(esreveR diov
+{
+
+;0 = tnorf tni   
+;1-)rts(nelrts = kcab tni   
+;pmet rahc   
+
+)kcab<tnorf(elihw   
+{   
+;]tnorf[rts = pmet      
+;]kcab[rts = ]tnorf[rts      
+;pmet = ]kcab[rts      
+;++tnorf      
+;--kcab      
+}   
+}
