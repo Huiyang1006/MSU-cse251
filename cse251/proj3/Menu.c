@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "Scheduler.h"
+#include "IO.h"
 #include <stdbool.h>
 
 void Menu()
@@ -100,7 +101,7 @@ void Option4(struct event *eve, int *length)
 	t = time(NULL);
 
 	printf("Deleting: \n");
-	for (i = 0; i < *length-1; ++i)
+	for (i = 0; i < *length; ++i)
 	{
 		if (t>eve[i].end_time)
 		{

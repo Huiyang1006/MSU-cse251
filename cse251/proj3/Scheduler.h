@@ -6,19 +6,6 @@
 void Menu();
 int GetOption();
 
-void InputEvent(char*, int);
-time_t InputDate(char*);
-time_t InputTime(char*, time_t);
-void OutputTime(struct tm);
-
-struct event Option1(struct event);
-void Option2(struct event *, int);
-void Option3(struct event *, int);
-void Option4(struct event *, int *);
-
-void OutputFull(struct event);
-
-
 struct event
 {
   char name[50];
@@ -30,5 +17,8 @@ struct event
   //int test;
 };
 
+void SaveNum(char *, int);
+void SaveFile(char *, struct event *, int);
+void LoadFile(char *);
 
 #endif
